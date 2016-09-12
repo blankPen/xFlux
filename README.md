@@ -103,7 +103,7 @@ TodoStore.set('type','TODO')
 
 ## Example
 
-运行案例 (http://localhost:8000/webpack-dev-server/)[http://localhost:8000/webpack-dev-server/]
+运行案例 [http://localhost:8000/webpack-dev-server/](http://localhost:8000/webpack-dev-server/)
 
 ```
    cd ./example
