@@ -103,4 +103,10 @@ TodoStore.set('type','TODO')
 
 ## Example
 
-building...
+运行案例 (http://localhost:8000/webpack-dev-server/)[http://localhost:8000/webpack-dev-server/]
+
+```
+   cd ./example
+   npm install
+   npm start
+```
