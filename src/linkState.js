@@ -3,12 +3,13 @@
  * @Date:   2016-09-09 14:08:09
  * @Desc: this_is_desc
  * @Last Modified by:   pengzhen
- * @Last Modified time: 2016-09-09 16:36:41
+ * @Last Modified time: 2016-09-12 09:18:02
  */
 
 'use strict';
 import React from 'react';
 import Emitter from './Emitter';
+import Immutable from 'immutable';
 import {
     globalStore
 } from './store';

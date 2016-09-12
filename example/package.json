@@ -1,0 +1,51 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "this is a component",
+  "main": "./src/index.jsx",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "copy": "copyfiles -f ./src/index.html ./src/favicon.ico ./dist",
+    "dist": "npm run copy & webpack --env=dist",
+    "lint": "eslint ./src",
+    "posttest": "npm run lint",
+    "serve": "node server.js --env=dev",
+    "serve:dist": "node server.js --env=dist",
+    "start": "node server.js --env=dev"
+  },
+  "author": "pengzhen",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-eslint": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babel-preset-stage-0": "^6.5.0",
+    "bower-webpack-plugin": "^0.1.9",
+    "copyfiles": "^0.2.1",
+    "css-loader": "^0.23.0",
+    "eslint": "^2.2.0",
+    "eslint-loader": "^1.0.0",
+    "eslint-plugin-react": "^5.0.0",
+    "file-loader": "^0.8.4",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "open": "0.0.5",
+    "react-hot-loader": "^1.2.9",
+    "rimraf": "^2.4.3",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.12.0",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "dependencies": {
+    "core-js": "^2.0.0",
+    "immutable": "^3.8.1",
+    "react": "^15.0.0",
+    "react-dom": "^15.0.0",
+    "x-flux": "^0.1.5"
+  }
+}
