@@ -22,10 +22,13 @@ import { linkState,createStore } from 'x-flux'; //es6
 ### `linkState(stores,mapStateToProps)`
 
 将状态树Store里的数据和组件关联
-
-@param  {[Array]} stores             [要关联的状态分支]
-@param  {[function]} mapStatetoPorps [返回筛选后的关联值]
-@return {[function]}                 [绑定方法]
+```js
+/**
+* @param  {[Array]} stores             [要关联的状态分支]
+* @param  {[function]} mapStatetoPorps [返回筛选后的关联值]
+* @return {[function]}                 [绑定方法]
+*/
+```
 
 ```js
 // es7 decorator
